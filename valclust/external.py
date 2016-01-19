@@ -6,7 +6,7 @@ import scipy.special as sp
 import pyprind
 import sys
 from .cluster import Cluster
-import editdist
+#import editdist
 
 
 class CompareCluster(Cluster):
