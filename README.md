@@ -48,7 +48,7 @@ Measuring te quality of clusterings by calculating the intra-cluster and inter-c
 
 ```
 import numpy as np
-from valclust.InternalValidity import PairwiseDistanceSampler as pds
+from valclust.internal import PairwiseDistanceSampler as pds
 
 np.random.seed(1234)
 
@@ -83,7 +83,7 @@ array([ 4.17855077,  5.17794181,  5.176349  ,  7.17877856,  4.17855077,
 ```
 import numpy as np
 import valclust
-import valclust.ExternalValidity as EV
+import valclust.external as EV
 
 y = np.array([1,1,1,2,2,2,2,-1])
 g = np.array([5,5,5,7,7,9,9,2])
