@@ -4,7 +4,7 @@
 import numpy as np
 #import pyprind
 import sys
-from ..cluster import Cluster
+from .cluster import Cluster
 #import editdist
 
 def cal_distance(x1, x2, method='euclidean'):

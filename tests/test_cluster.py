@@ -14,7 +14,7 @@ def test_get_members():
 
     a1_true = [0,1,2,5,6]
     for i in range(5):
-	assert(a1[i] == a1_true[i])
+        assert(a1[i] == a1_true[i])
 
 
 def test_get_members_string():
